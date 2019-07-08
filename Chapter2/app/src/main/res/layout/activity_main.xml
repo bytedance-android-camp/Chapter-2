@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
@@ -31,22 +32,22 @@
         android:text="列表"/>
 
     <Button
-        android:id="@+id/bt_rl_animator"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="列表动画"/>
-
-    <Button
         android:id="@+id/bt_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="常用控件"/>
 
     <Button
-        android:id="@+id/bt_attribute"
+        android:id="@+id/bt_linear_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="属性"/>
+        android:text="线性布局"/>
+
+    <Button
+        android:id="@+id/bt_relative_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相对布局"/>
 
 </LinearLayout>
 

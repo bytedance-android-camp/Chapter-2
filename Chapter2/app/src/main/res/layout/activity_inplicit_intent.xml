@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".intent.ImplicitIntentActivity"
-    android:text="我是隐式意图Activity">
+    tools:context=".intent.ImplicitIntentActivity">
 
-</TextView>
+    <Button
+        android:id="@+id/bt_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="报警"/>
+
+</LinearLayout>

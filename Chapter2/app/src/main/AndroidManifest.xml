@@ -11,6 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".view.RelativeLayoutActivity">
+        </activity>
+        <activity android:name=".view.LinearLayoutActivity">
+        </activity>
         <activity android:name=".intent.ImplicitIntentActivity">
             <intent-filter>
                 <action android:name="neo"/>
