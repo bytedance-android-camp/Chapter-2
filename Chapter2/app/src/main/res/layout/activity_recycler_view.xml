@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,50 +9,59 @@
 
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="wrap_content"
-    android:orientation="horizontal">
+                  android:orientation="horizontal"
+                  android:gravity="center_vertical"
+                    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:background="@color/colorPrimary">
 
         <Button
             android:id="@+id/bt_insert"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="插入"/>
 
         <Button
             android:id="@+id/bt_insert_range"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="批量插入"/>
+            android:layout_weight="1"
+            android:text="批量增"/>
 
         <Button
             android:id="@+id/bt_delete"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="删除"/>
 
         <Button
             android:id="@+id/bt_delete_range"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="批量删除"/>
+            android:layout_weight="1"
+            android:text="批量删"/>
 
         <Button
             android:id="@+id/bt_change"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="修改"/>
 
         <Button
             android:id="@+id/bt_change_range"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="批量修改"/>
+            android:layout_weight="1"
+            android:text="批量改"/>
 
     </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rl_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-    />
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

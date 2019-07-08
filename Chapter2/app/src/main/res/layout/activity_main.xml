@@ -7,16 +7,46 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/bt_lifecycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生命周期"/>
+
+    <Button
+        android:id="@+id/bt_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结果"/>
+
+    <Button
+        android:id="@+id/bt_implicit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐式意图"/>
+
+    <Button
         android:id="@+id/bt_rl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="列表"/>
 
     <Button
-        android:id="@+id/bt_lifecycle"
+        android:id="@+id/bt_rl_animator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="生命周期"/>
+        android:text="列表动画"/>
+
+    <Button
+        android:id="@+id/bt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="常用控件"/>
+
+    <Button
+        android:id="@+id/bt_attribute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="属性"/>
 
 </LinearLayout>
 
