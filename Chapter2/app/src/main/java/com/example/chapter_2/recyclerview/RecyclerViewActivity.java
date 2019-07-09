@@ -22,7 +22,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
         mListView.setLayoutManager(new LinearLayoutManager(this));
         mAdapter = new ListAdapter();
         mListView.setAdapter(mAdapter);
-        mAdapter.setDataList(DataFactory.getData(10));
+        mAdapter.setList(DataFactory.getData(10));
         mAdapter.notifyDataSetChanged();
 //        mInsertButton = findViewById(R.id.bt_insert);
 //        mInsertButton.setOnClickListener(new View.OnClickListener() {

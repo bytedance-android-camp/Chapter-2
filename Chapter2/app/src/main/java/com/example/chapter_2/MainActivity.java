@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.chapter_2.intent.ResultActivity;
-import com.example.chapter_2.lifecycle.LifecycleActivity;
 import com.example.chapter_2.recyclerview.RecyclerViewActivity;
 import com.example.chapter_2.view.LinearLayoutActivity;
 import com.example.chapter_2.view.RelativeLayoutActivity;
@@ -24,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         mLifecycleButton = findViewById(R.id.bt_lifecycle);
         mLifecycleButton.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, LifecycleActivity.class);
+                Intent intent = new Intent(MainActivity.this, DemoActivity.class);
                 startActivity(intent);
             }
         });

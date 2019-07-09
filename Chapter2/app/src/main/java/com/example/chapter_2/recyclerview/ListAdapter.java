@@ -37,7 +37,7 @@ public class ListAdapter extends RecyclerView.Adapter {
         }
     }
 
-    public void setDataList(List<Data> list) {
+    public void setList(List<Data> list) {
         if (!checkListNonNull(list)) {
             return;
         }

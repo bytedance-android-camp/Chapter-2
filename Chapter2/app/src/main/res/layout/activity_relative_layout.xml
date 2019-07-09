@@ -27,7 +27,6 @@
               android:layout_height="wrap_content"
               android:layout_alignBottom="@id/iv_icon"
               android:layout_alignLeft="@id/tv_title"
-              android:layout_toRightOf="@id/iv_icon"
               android:text="我是摘要"
               android:textColor="@android:color/white"/>
 

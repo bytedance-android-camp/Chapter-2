@@ -17,13 +17,12 @@ public class ImplicitIntentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inplicit_intent);
-
         mButton = findViewById(R.id.bt_call);
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override public void onClick(View v) {
                 Intent i = new Intent();
                 i.setAction(Intent.ACTION_DIAL);
-                i.setData(Uri.parse("tel:10086"));
+                i.setData(Uri.parse("tel:110"));
                 startActivity(i);
             }
         });
